@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="maven_test:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/maven_test_jar</output-path>
+    <root id="archive" name="maven_test.jar">
+      <element id="module-output" name="maven_test" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../.m2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="H:/Java/jgoodies-forms-1.8.0/jgoodies-forms-1.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../VScode/Java/test_01/test_01/test_01.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="H:/Java/jgoodies-common-1.8.1/jgoodies-common-1.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/H2/bin/h2-2.1.214.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/inventory" />
+      <element id="file-copy" path="$PROJECT_DIR$/inventory.trace.db" />
+      <element id="file-copy" path="$PROJECT_DIR$/inventory.mv.db" />
+    </root>
+  </artifact>
+</component>

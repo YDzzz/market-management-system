@@ -1,0 +1,21 @@
+2023-06-12 16:40:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists PUBLIC.saleList(    code int primary key ,    s_time datetime not null ,    saleId int not null ,    Count decimal(10,2) not null,    foreign key (saleId) references inventory(id),[*]);"; expected "identifier"; SQL statement:
+create table if not exists PUBLIC.saleList(    code int primary key ,    s_time datetime not null ,    saleId int not null ,    Count decimal(10,2) not null,    foreign key (saleId) references inventory(id),); [42001-214]
+2023-06-12 16:41:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists PUBLIC.saler(    code int primary key ,    id int not null ,    amount int not null,    foreign key (id) references u_user(id)[*];"; expected "INDEX, ON, NOT DEFERRABLE, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+create table if not exists PUBLIC.saler(    code int primary key ,    id int not null ,    amount int not null,    foreign key (id) references u_user(id); [42001-214]
+2023-06-12 16:42:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists PUBLIC.saleList(    code int primary key ,    s_time datetime not null ,    saleId int not null ,    Count decimal(10,2) not null,    foreign key (saleId) references inventory(id),[*]);"; expected "identifier"; SQL statement:
+create table if not exists PUBLIC.saleList(    code int primary key ,    s_time datetime not null ,    saleId int not null ,    Count decimal(10,2) not null,    foreign key (saleId) references inventory(id),); [42001-214]
+2023-06-12 16:42:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SUPPLIER" not found; SQL statement:
+create table if not exists PUBLIC.purchase(    purchaseId int primary key ,    supplierId int not null ,    batchNumber int not null ,    species varchar(255) not null ,    amount int not null ,    Count decimal(10, 2) not null,    state ENUM ('已入库', '退货中', '申请中', '已退货', '入库中') not null,    foreign key (supplierId) references supplier(Id)) [42102-214]
+2023-06-12 16:43:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists PUBLIC.saler(    code int primary key ,    id int not null ,    amount int not null,[*]);"; expected "identifier"; SQL statement:
+create table if not exists PUBLIC.saler(    code int primary key ,    id int not null ,    amount int not null,); [42001-214]
+2023-06-12 16:43:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists PUBLIC.u_user(    name varchar(255) primary key    [*]u_password varchar(255) not null ,    u_type enum('boss','storekeeper','salesman') not null);"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+create table if not exists PUBLIC.u_user(    name varchar(255) primary key    u_password varchar(255) not null ,    u_type enum('boss','storekeeper','salesman') not null); [42001-214]
+2023-06-12 16:44:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists PUBLIC.saler(    code int primary key ,    id int not null ,    amount int not null,[*]);"; expected "identifier"; SQL statement:
+create table if not exists PUBLIC.saler(    code int primary key ,    id int not null ,    amount int not null,); [42001-214]

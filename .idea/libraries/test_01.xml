@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="test_01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../VScode/Java/test_01/test_01/test_01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../VScode/Java/test_01/test_01/test_01.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../VScode/Java/test_01/test_01/bin/WoShiShenLiLingHuaDeGou" />
+    </SOURCES>
+  </library>
+</component>

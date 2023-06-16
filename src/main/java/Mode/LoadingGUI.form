@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Mode.LoadingGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:176px:noGrow"/>
+    <rowspec value="top:m:noGrow"/>
+    <rowspec value="center:172px:noGrow"/>
+    <colspec value="fill:421px:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="432" height="348"/>
+    </constraints>
+    <properties>
+      <maximumSize width="430" height="332"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="3565d" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:77px:noGrow"/>
+        <colspec value="left:m:noGrow"/>
+        <colspec value="fill:272px:noGrow"/>
+        <colspec value="left:m:noGrow"/>
+        <colspec value="fill:82px:grow"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <hspacer id="85645">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+          </hspacer>
+          <grid id="81457" layout-manager="FormLayout">
+            <rowspec value="center:37px:noGrow"/>
+            <rowspec value="top:m:noGrow"/>
+            <rowspec value="center:38px:noGrow"/>
+            <rowspec value="top:m:noGrow"/>
+            <rowspec value="center:36px:noGrow"/>
+            <rowspec value="top:m:noGrow"/>
+            <rowspec value="center:39px:noGrow"/>
+            <rowspec value="top:m:noGrow"/>
+            <rowspec value="center:m:grow"/>
+            <colspec value="fill:179px:grow"/>
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="47495" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="f0194" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.0"/>
+                  <alignmentY value="0.0"/>
+                  <background color="-1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <grid id="f4810" layout-manager="FormLayout">
+                <rowspec value="center:d:grow"/>
+                <colspec value="fill:90px:noGrow"/>
+                <colspec value="left:m:noGrow"/>
+                <colspec value="fill:92px:noGrow"/>
+                <colspec value="left:m:noGrow"/>
+                <colspec value="fill:77px:noGrow"/>
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-vert="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="83e5d" class="javax.swing.JCheckBox" binding="CheckBox">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <inheritsPopupMenu value="false"/>
+                      <text value="自动登录"/>
+                    </properties>
+                  </component>
+                  <component id="f2108" class="javax.swing.JCheckBox" binding="CheckBox2">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <text value="记住密码"/>
+                    </properties>
+                  </component>
+                  <component id="5786c" class="javax.swing.JButton" binding="Button2" custom-create="true">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <text value="找回密码"/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <vspacer id="306e">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-vert="false"/>
+                </constraints>
+              </vspacer>
+              <component id="42628" class="javax.swing.JButton" binding="Button1" custom-create="true">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-vert="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14569990"/>
+                  <text value="登录"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="e5e40" class="javax.swing.JButton" binding="Button3" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <autoscrolls value="false"/>
+              <background color="-1"/>
+              <foreground color="-13947600"/>
+              <iconTextGap value="0"/>
+              <text value="注册账户"/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="6c5b7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <icon value="picture/loadingimg.png"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

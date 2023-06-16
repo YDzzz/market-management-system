@@ -1,0 +1,66 @@
+2023-06-04 01:20:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT password, TYPE FROM PUBLIC.U_USER WHERE name = ; [42104-214]
+2023-06-04 01:21:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT password, TYPE FROM PUBLIC.U_USER WHERE name = ; [42104-214]
+2023-06-04 01:23:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT password, TYPE FROM PUBLIC.U_USER WHERE name = ; [42104-214]
+2023-06-04 01:23:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT password, TYPE FROM PUBLIC.u_user WHERE name = ; [42104-214]
+2023-06-04 01:29:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT null FROM PUBLIC.u_user; [42104-214]
+2023-06-04 01:30:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT null FROM PUBLIC.u_user; [42104-214]
+2023-06-04 01:30:54 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT null FROM PUBLIC.u_user; [42104-214]
+2023-06-04 01:32:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT null FROM PUBLIC.u_user; [42104-214]
+2023-06-04 01:33:07 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT null FROM PUBLIC.u_user; [42104-214]
+2023-06-04 01:33:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT null FROM PUBLIC.u_user; [42104-214]
+2023-06-04 13:47:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT U_PASSWORD, U_TYPE FROM PUBLIC.u_user WHERE NAME = '';; [42104-214]
+2023-06-04 13:48:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT U_PASSWORD, U_TYPE FROM PUBLIC.u_user WHERE NAME = ''; [42104-214]
+2023-06-04 13:49:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT U_PASSWORD, U_TYPE FROM PUBLIC.u_user WHERE NAME = 'demo'; [42104-214]
+2023-06-04 13:50:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT U_PASSWORD, U_TYPE FROM PUBLIC.U_USER WHERE NAME = ''; [42104-214]
+2023-06-04 14:05:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT U_PASSWORD, U_TYPE FROM PUBLIC.U_USER WHERE NAME = ''; [42104-214]
+2023-06-04 14:06:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT U_PASSWORD, U_TYPE FROM PUBLIC.U_USER WHERE NAME = ''; [42104-214]
+2023-06-04 14:11:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT U_PASSWORD, U_TYPE FROM PUBLIC.U_USER WHERE NAME = ''; [42104-214]
+2023-06-04 14:17:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT U_PASSWORD, U_TYPE FROM PUBLIC.U_USER WHERE NAME = ''; [42104-214]
+2023-06-04 14:29:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT * FROM PUBLIC.U_USER; [42104-214]
+2023-06-04 14:34:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT * FROM PUBLIC.U_USER; [42104-214]
+2023-06-04 14:41:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT * FROM PUBLIC.U_USER; [42104-214]
+2023-06-04 14:41:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "U_USER" not found (this database is empty); SQL statement:
+SELECT * FROM PUBLIC.U_USER; [42104-214]
